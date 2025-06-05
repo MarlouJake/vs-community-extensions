@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+    <Identity Id="GraphQLAnalyzers.10ee602f-3ab5-4b41-86ca-2aebd385a66a" Version="1.0" Language="en-US" Publisher="napoli"/>
+    <DisplayName>GraphQL Analyzers</DisplayName>
+	<Description xml:space="preserve">A Roslyn analyzer extension that flags overloads in GraphQL Query and Mutation classes.</Description>
+    </Metadata>
+    <Installation>
+	    <InstallationTarget Id="Microsoft.VisualStudio" Version="[16.0,18.0)" />
+    </Installation>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="GraphQLAnalyzers" Path="|GraphQLAnalyzers|"/>
+    <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="GraphQLAnalyzers" Path="|GraphQLAnalyzers|"/>
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" Version="[15.0,)" DisplayName="Roslyn Language Services" />
+  </Prerequisites>
+</PackageManifest>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLAnalyzers", "GraphQLAnalyzers\GraphQLAnalyzers.csproj", "{5BB56EE0-AD83-4FE8-8D31-DC8840018E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLAnalyzers.CodeFixes", "GraphQLAnalyzers.CodeFixes\GraphQLAnalyzers.CodeFixes.csproj", "{B3EBEF5C-42D3-4EE5-A3A4-D37E1E8EFC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLAnalyzers.Package", "GraphQLAnalyzers.Package\GraphQLAnalyzers.Package.csproj", "{DB40041C-7417-48CC-BE48-34D340AFE876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLAnalyzers.Test", "GraphQLAnalyzers.Test\GraphQLAnalyzers.Test.csproj", "{B3E5A788-4940-40D8-84E2-7595EADDF65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLAnalyzers.Vsix", "GraphQLAnalyzers.Vsix\GraphQLAnalyzers.Vsix.csproj", "{0DAF3D59-D906-4557-A2B5-C87161ABFFD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BB56EE0-AD83-4FE8-8D31-DC8840018E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB56EE0-AD83-4FE8-8D31-DC8840018E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB56EE0-AD83-4FE8-8D31-DC8840018E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB56EE0-AD83-4FE8-8D31-DC8840018E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3EBEF5C-42D3-4EE5-A3A4-D37E1E8EFC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3EBEF5C-42D3-4EE5-A3A4-D37E1E8EFC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3EBEF5C-42D3-4EE5-A3A4-D37E1E8EFC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3EBEF5C-42D3-4EE5-A3A4-D37E1E8EFC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB40041C-7417-48CC-BE48-34D340AFE876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB40041C-7417-48CC-BE48-34D340AFE876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB40041C-7417-48CC-BE48-34D340AFE876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB40041C-7417-48CC-BE48-34D340AFE876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E5A788-4940-40D8-84E2-7595EADDF65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E5A788-4940-40D8-84E2-7595EADDF65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E5A788-4940-40D8-84E2-7595EADDF65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E5A788-4940-40D8-84E2-7595EADDF65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DAF3D59-D906-4557-A2B5-C87161ABFFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAF3D59-D906-4557-A2B5-C87161ABFFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DAF3D59-D906-4557-A2B5-C87161ABFFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DAF3D59-D906-4557-A2B5-C87161ABFFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBA2F872-9736-46D7-8B1E-D7D4B1F3A1DF}
+	EndGlobalSection
+EndGlobal
